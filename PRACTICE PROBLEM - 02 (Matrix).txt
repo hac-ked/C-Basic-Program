@@ -1,0 +1,40 @@
+   
+Practice problems - 02 :
+
+
+Q1.WAP to take input of two matrix and give sum of matrixs.
+
+
+
+Q2.WAP to take input of two matrix and give multiplication of matrixs.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FOR HINT OF ABOVE QUESTION GO DOWN....
+
+Q1.(*Hint: access one element of one matrix at one time and add it and save it, do same for all elements)
+
+
+Q2.                  T R Y     I T     O W N

@@ -1,0 +1,8 @@
+
+Practice problems - 04 :
+
+
+Q1.WAP for binary search.
+
+
+Q2.WAP for linear search.

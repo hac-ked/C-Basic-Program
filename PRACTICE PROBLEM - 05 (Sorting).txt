@@ -1,0 +1,8 @@
+
+Practice problems - 05 :
+
+
+Q1.WAP for bubble sorting.
+
+
+Q2.WAP for insertion sorting.

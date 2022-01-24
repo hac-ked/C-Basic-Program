@@ -1,0 +1,290 @@
+Syntax :
+
+*getch statement: 
+
+                    getch();
+
+=>It is used to hold screen after giving output.
+
+
+*clrscr statement:
+
+                   clrscr();
+
+=>It is used to clear screen for unwanted texts during compiling.
+
+
+*printing statement:
+
+                   printf("comment");
+                   printf("%d",i);
+
+=>It is a pre-defined function which is used for printing statments or values of variable. 
+
+
+*scanf statement:
+
+                   scanf("%d", &a);
+                   {
+                     --> %d = intger
+                     --> %c = character
+                     --> %s = string
+                   }
+
+=>It is used fro taking input of variables except string.
+
+
+*if statement:
+
+                   if(condition)
+                   {
+                      statements;
+                   }
+
+=>It is used for condition like, if 'A' is a correct statement then do this. It is also used for comparing.
+
+
+*else statement:
+
+                    else
+                    {
+                       statements;
+                    }
+
+=>It is used for last case in multi case programmes like, if all condition are false then do this. 
+
+
+*else if statements:
+
+                    else if(condition)
+                    {
+                       statements;
+                    }
+
+=>It is used for other option like, if case is false but there it can be true in another case then 'else if' is used in that case.
+
+
+*for loop:
+
+            for(initilization; condition; increment/decrement)
+            {
+                statements;
+            }
+
+=>It is used for looping like, printing same thing for 50 times and many more things.
+
+
+*while loop:
+            
+            while(condition)
+            {
+                statements;
+            }
+
+=>It is also used for looping same as above.
+
+
+*do-while loop:
+
+             do
+             {
+                statements;
+             }while(condition);
+
+=>It is also used for looping but in this first loop starts and then checks the condition i.e. do while loop does not check the condition
+  firstly. 
+
+
+*conditional statement:
+
+             y= Expression-1 ? Expression-2 : Expression-3;
+
+#NOTE:- Here Expression-1 is a condition if Expression-1 is true than Expression-2 will be value of y but if Expression-1 is false then 
+        Expression-3 will be the value of y.
+
+
+*goto statement:
+
+            {
+              goto label:
+                statements;
+              label:
+                statements;
+            }
+
+#NOTE:- Here control of program is skiped from the statement 'goto label:' and goes to statement 'label:'.
+
+
+*user defined functions:
+
+ @TYPE 1
+            #HEADER
+            void function_name(int a);      ///FUNCTION DECLARATION
+            void main()
+            {
+              statements;
+              function_name();              ///FUNCTION CALLING
+              statements;
+            }
+            void function_name(int a)       ///FUNCTION DEFINATION
+            {
+              statements;
+            }
+
+@TYPE 2
+         #HEADER
+            void function_name(int a)       ///FUNCTION DEFINATION
+            {
+              statements;
+            }
+            void main()
+            {
+              statements;
+              function_name();              ///FUNCTION CALLING
+              statements;
+            }
+
+=>It is used for making program more easy to read and run. It reduces its complexcity.
+ 
+          
+*pointer:
+
+        int* i;
+        float* i;
+        char* i;
+
+=>It is used for storing address of a variable and to use it directly. It reduces time while running a program.
+
+
+*array:
+
+@TYPE 1
+        int a[10];
+
+@TYPE 2
+        int a[]={0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+
+@TYPE 3
+        int a[10][10];
+
+=>It is used for storing a large values of similar data type.
+
+
+*character & string:
+
+       char s;             ///ONLY FOR CHARACTER
+       scanf("%c",&s);
+
+       char s[100];        ///FOR CHARACTER AND STRING OF UPTO 100 LENGTH
+       gets(s);
+
+=>It is used for taking input of characters and strings.
+
+
+*structure:
+
+@TYPE 1
+      struct structure_name
+      {
+        int id;
+        statements;
+      };
+      void main()
+      {
+        struct structure_name variable;
+        variable.id=12;
+        statements;
+      }
+
+@TYPE 2
+     struct structure_name
+      {
+        int id;
+        statements;
+      }variable;
+      void main()
+      {
+        variable.id=12;
+        statements;
+      }
+
+
+*union:
+
+@TYPE 1
+      union structure_name
+      {
+        int id;
+        statements;
+      };
+      void main()
+      {
+        union structure_name variable;
+        variable.id=12;
+        statements;
+      }
+
+@TYPE 2
+     union structure_name
+      {
+        int id;
+        statements;
+      }variable;
+      void main()
+      {
+        variable.id=12;
+        statements;
+      }
+
+
+*recursion:
+
+          void function_name(int i)
+          {
+             y=function_name(i);
+             statements;
+          }
+
+=>It is used for making program more sort. Calling same function in its own function.
+
+
+*continue and break statement:
+
+          for(i=0; i<10; i++)       ///ITS OUTPUT WILL BE 1 2 3 4....
+          {
+             if(i==5)
+               break;
+             else
+               printf("%d",i);
+          }
+
+          for(i=0; i<10; i++)        ///ITS OUTPUT WILL BE 1 2 3 4 6 7 8 9....
+          {
+             if(i==5)
+               continue;
+             else
+               printf("%d",i);
+          }
+
+=>Both continue and break statement is used for skiping a value or for breaking a loop respectively.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

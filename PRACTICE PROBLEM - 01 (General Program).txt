@@ -1,0 +1,54 @@
+   
+Practice problems - 01 :
+
+
+Q1.WAP to take input of a number from a user and tells that it is even or odd.
+
+
+Q2.WAP to swap number which is given by a user.
+
+
+Q3.WAP to find sum of digits of a number given by a user.
+
+
+Q4.WAP to reverse a the input number from a user.
+
+
+Q5.WAP to take input of a number from a user and gives its factorial.
+
+
+Q6.WAP to take input from a user and produce a palindrome series as per inputed values.
+
+
+Q7.WAP to take input of a number from user and to check that the number is armstrong or not.
+
+
+
+
+
+
+
+
+
+
+FOR HINT OF ABOVE QUESTION GO DOWN....
+
+Q1.(*Hint: if a number is divisible by 2)
+
+
+Q2.(*Hint: store the value of one in third varible, and value of second in first and then third variable value in first)
+
+
+Q3.(*Hint: break the number from last and take sum of it)
+
+
+Q4.(*Hint: break number from last and make it proper and then add it with other breaked number)
+
+
+Q5.(*Hint: multiplication of number substracted by 1 unless it becomes 1)
+
+
+Q6.(*Hint: taking input of length of series and from where to start)
+
+
+Q7.(*Hint: sum of digits to the power of number of digits)

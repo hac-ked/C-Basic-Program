@@ -1,0 +1,53 @@
+
+Practice problems - 03 :
+
+
+NOTE :- ALL THE PATTERNS ARE OF 'N' NUMBERS OF ROWS. HERE ALL THE PATTERNS ARE ARRANGED AS PER SERIAL OF PROGRAMS.
+
+
+1. *
+   **
+   ***
+   ****
+   *****
+
+
+
+2. *****
+   ****
+   ***
+   **
+   *
+
+
+
+3. *****
+    ****
+     ***
+      **
+       *
+
+
+
+4.      *
+       ***
+      *****
+     *******
+    *********
+
+
+
+5.  * * * * *
+    *       *
+    *       *
+    *       *
+    * * * * *
+
+
+
+6.      *
+       **
+      ***
+     ****
+    *****
+
